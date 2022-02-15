@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners><listener class-name="Resource.Listeners"></listener></listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/DivyashSinghHura/IdeaProjects/STORE/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.SignUpTestCase">
+                <methods>
+                    <include name="userSignUp"/>
+                </methods>
+            </class>
+            <class name="TestCases.LoginTestCase">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="TestCases.HomePageTest">
+                <methods>
+                    <include name="monitor"/>
+                </methods>
+            </class>
+            <class name="TestCases.PurchaseTestCase">
+                <methods>
+                    <include name="purchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
